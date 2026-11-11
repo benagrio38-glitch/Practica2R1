@@ -31,6 +31,12 @@ flutter run -d chrome
 |---|---|---|
 | ![Estado inicial](evidencia/01_estado_inicial.png) | ![Diálogo](evidencia/02_dialogo_resultado.png) | ![Etiqueta](evidencia/03_etiqueta_resultado.png) |
 
+## Pruebas automáticas
+
+`flutter test` pasa las 6 pruebas de `test/widget_test.dart`: la lógica del IMC (cálculo, categorías, redondeo y límites) y la pantalla (calcular, limpiar y datos incompletos).
+
+![flutter test](evidencia/04_flutter_test.png)
+
 ## Casos de prueba
 
 | # | Datos | IMC esperado | Categoría | Captura |
